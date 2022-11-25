@@ -2,14 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {
-      colors: {
-        "dark-blue": "#0b1120",
-      },
-      backgroundImage: {
-        main: "url('/src/assets/images/bg.png')",
+     container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
       },
     },
+    extend: {},
   },
   plugins: [],
 };
