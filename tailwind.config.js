@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+ // tailwind.config.js
+    const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-     container: {
+    container: {
       center: true,
       padding: {
         DEFAULT: "1rem",
@@ -12,7 +14,11 @@ module.exports = {
         "2xl": "6rem",
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   plugins: [],
 };
