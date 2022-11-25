@@ -11,7 +11,7 @@ const Banner = () => {
       .then((data) => setProduct(data));
   }, []);
 
-  console.log(product);
+
 
 
 
