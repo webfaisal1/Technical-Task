@@ -3,11 +3,11 @@ import component1 from "../assets/images/Component 1.png";
 
 const Alexa = () => {
   return (
-    <Fragment>   
-      <section>
-        <div className="py-16">
-          <img src={component1} alt="" />  
-        </div>  
+    <Fragment>
+      <section className="py-16">
+        <div className='w-full' >
+          <img src={component1} alt="" />
+        </div>
       </section>
     </Fragment>
   );

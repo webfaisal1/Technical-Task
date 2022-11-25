@@ -1,6 +1,8 @@
 import Alexa from "./Components/Alexa";
 import Banner from "./Components/Banner";
+import Rectangle from "./Components/Rectangle";
 import TodayHotDeals from "./Components/TodayHotDeals";
+import YourSearchedItems from "./Components/YourSearchedItems";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Banner/>
       <Alexa/>
       <TodayHotDeals/>
+      <YourSearchedItems/>
+      <Rectangle/>
     </div>
   );
 }

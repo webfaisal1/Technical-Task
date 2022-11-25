@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
 
-const TodayHotDeals = () => {
+const YourSearchedItems = () => {
 
     const [product, setProduct] = useState([]);
     useEffect(() => {
@@ -11,9 +11,9 @@ const TodayHotDeals = () => {
 
   return (
     <Fragment>
-      <section className="py-16">
+      <section className='py-16' >
         <h1 className="text-[24px] mb-[10px] ml-[20px] font-semibold ">
-          Today’s hot deals
+          Your searched items
         </h1>
         <div className="w-full h-[1px] border border-[#FFAE5D] border-dashed"></div>
 
@@ -38,4 +38,4 @@ const TodayHotDeals = () => {
   );
 };
 
-export default TodayHotDeals;
+export default YourSearchedItems;
