@@ -36,14 +36,12 @@ const Banner = () => {
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 ">
               {product.slice(0, 6).map((data) => (
                 <div key={data._id} className="p-[10px]">
-                  <img src="https://drive.google.com/uc?export=view&id=1CICIzNM7lx7SlwwdMfq8FJMhau6RN7ma" alt="" />
+                  <img src={data.picture} alt="" />
                   <h1 className=" text-[16px] font-medium my-[5px] ">
                     {data.name}
                   </h1>
                   <div className="flex justify-between items-center">
-                    <h4 className="text-[16px] font-normal ">
-                      {data.price}
-                    </h4>
+                    <h4 className="text-[16px] font-normal ">{data.price}</h4>
                     <h4 className="text-[16px] font-normal text-[#FF3232]">
                       -{data.discount}% off
                     </h4>
