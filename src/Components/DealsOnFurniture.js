@@ -16,7 +16,7 @@ const DealsOnFurniture = () => {
         </h1>
         <div className="w-full h-[1px] border border-[#FFAE5D] border-dashed"></div>
 
-        <div className="grid grid-cols-3 lg:grid-cols-5 gap-5 ">
+        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-5 ">
           {product.slice(0, 5).map((data) => (
             <div key={data._id} className="p-[10px]">
               <img src={data.picture} alt="" />
