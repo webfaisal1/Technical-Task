@@ -9,7 +9,7 @@ const Rectangle = () => {
         <div className="w-full relative ">
           <img src={ractang} alt="" />
           <div className="absolute top-10 left-0 right-0 ">
-            <div className='flex items-center justify-center ' >
+            <div className="flex items-center justify-center ">
               <img className="w-auto" height={500} src={furniture} alt="" />
             </div>
           </div>
