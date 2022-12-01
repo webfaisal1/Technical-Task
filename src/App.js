@@ -5,6 +5,7 @@ import DealsOnFurniture from "./Components/DealsOnFurniture";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Rectangle from "./Components/Rectangle";
+import ReviewYourPurchase from "./Components/ReviewYourPurchase";
 import TodayHotDeals from "./Components/TodayHotDeals";
 import YourSearchedItems from "./Components/YourSearchedItems";
 
@@ -20,6 +21,7 @@ function App() {
       <YourSearchedItems/>
       <Rectangle/>
       <DealsOnFurniture/>
+      <ReviewYourPurchase/>
     </section>
     <Footer/>
     </Fragment>
